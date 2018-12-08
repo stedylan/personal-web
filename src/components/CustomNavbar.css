@@ -1,0 +1,15 @@
+.navbar-style{
+    margin-bottom: 0;
+}
+.navbar-form .form-control {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding-right: 0;
+}
+.col-xs-9{
+    padding-right: 0;
+}
+button{
+    outline: none;
+}

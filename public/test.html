@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            @media only screen and (min-width: 374px) {
+              html {
+                font-size: 85% !important;
+              }
+            }
+            @media only screen and (min-width: 414px) {
+              html {
+                font-size: 62.5% !important;
+              }
+            }
+            @media only screen and (min-width: 480px) {
+              html {
+                font-size: 92.5% !important;
+              }
+            }
+            
+            html {
+                font-size: 62.5%;
+            }
+ 
+            #test {
+                font-size: 1.6rem;
+            }
+        </style>
+        <script type="text/javascript">
+         window.onload = function() {
+            var test = document.getElementById("test");
+            console.log(getComputedStyle(test).fontSize)
+         }
+        </script>
+    </head>
+    <body>
+        <div id="test">hello</div>
+    </body>
+</html>

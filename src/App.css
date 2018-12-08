@@ -1,0 +1,33 @@
+*{
+  font-family: Sans-serif;
+  color: black;
+}
+body{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+a:hover,a:active{
+  text-decoration: none;
+}
+html{
+  font-size:25px !important;
+}
+@media (max-width: 992px) {
+  html{
+    font-size:22.5px !important;
+  }
+}
+@media (max-width: 768px) {
+  html{
+    font-size:20px !important;
+  }
+}
+@media (max-width: 576px) {
+  html{
+    font-size:17.5px !important;
+  }
+}
+
